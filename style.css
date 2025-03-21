@@ -1,0 +1,63 @@
+body {
+    background-color: #fff;
+    color: #2D2A26;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.site-header {
+    background-color: #32373c;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#crimes-nav {
+    padding: 40px;
+    text-align: center;
+}
+
+#crimes-nav h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#crimes-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#crimes-nav li {
+    margin: 10px 0;
+}
+
+#crimes-nav a {
+    color: #0071CE;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.site-footer {
+    background-color: #2D2A26;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
