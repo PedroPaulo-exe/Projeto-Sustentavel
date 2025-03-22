@@ -1,63 +1,64 @@
-body {
-    background-color: #fff;
-    color: #2D2A26;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.site-header {
-    background-color: #32373c;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.menu {
-    list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    margin: 0;
     padding: 0;
+}
+.texto_de_cima {
+    background-color: #000;
+    height: 75px;
+    text-align: center;
+    color:white
+}
+.alinhamento{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    width: 150px;
+    position: relative;
+    top: -50px; 
+}
+.texto {
+    margin-top: -100px; 
+}
+.texto_meio{
+    font-size: 50px;
+    margin-top: -90px;
+    font-family: "Audiowide", sans-serif;
+}
+.container {
+    background: linear-gradient(#8A8A8B, #0f0f0f, #8A8A8B);
+    height: 750px;    
+    color: yellow;    
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    font-size: 70px;
+}
+
+.ee{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 50px;
+    background-color: #da0606;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: -175px;
+    
+    
+    }
+.pp{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
-}
-
-.menu li {
-    display: inline;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-#crimes-nav {
-    padding: 40px;
-    text-align: center;
-}
-
-#crimes-nav h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-#crimes-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-#crimes-nav li {
-    margin: 10px 0;
-}
-
-#crimes-nav a {
-    color: #0071CE;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-.site-footer {
-    background-color: #2D2A26;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
