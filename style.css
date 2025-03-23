@@ -68,19 +68,165 @@ header{
     font-size: 7vh;
 }
 .page2_tomas{
-    background-color: #24252A;
-    width: auto;
-    height: 100vh;
-    margin-top: 420px;
-}
-.manipulacao_de_tomas{
-    display: flex;
+    display: flex;        
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    padding: 10px, 10;
-    gap: 20px;
+    background-color: #24252A;
+    width: 100%;
+    height: 110vh;
+    margin-top: 490px;
+    gap: 80px;
+    color:#edf0f1    
+}
+.texto_pg2{    
+    background: rgba(255, 255, 255, 0.05);
+    padding: 50px;
+    border-radius: 20px;    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 600px;
+}
+.texto_pg2:hover {    
+    transform: translateY(-5px);
+}
+
+.titulo_pg2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.resumo_pg2{
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #ffffffcc;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify;
 }
 .tomas_img{
-    width: 500px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.tomas_img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+.energia_ar_pg3 {
+    display: flex;        
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('ventilador.jpg');
+    width: auto;
+    height: 100vh;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;    
+    gap: 50px;
+}
+.img_pa{
+    border-radius: 10px;
+    width: 460px;
+}
+.img_pa:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+.texto_pa{
+    background: rgba(255, 255, 255, 0.20);
+    padding: 50px;
+    border-radius: 20px;    
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    gap: 50px;
+    max-width: 600px;
+    color:#edf0f1
+}
+.titulo_pa{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #ff5e00;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.sub_titulo_pa{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+.aguinha_pg4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('fundo_aguinha_cortado.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: auto;
+    height: 100vh;
+    gap: 40px;
+}
+.texto_aguinha{
+    background: rgba(255, 255, 255, 0.25);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 50px;    
+    gap: 50px;
+    max-width: 600px;
     
 }
+.usina_img{
+    border-radius: 10px;
+    width: 460px;
+}
+.titulo_aguinha{
+    font-size: 4rem;
+    color: #041d72;     
+    text-align: center;  
+}
+.paragrafo_aguinha{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', sans-serif;
+    color:#edf0f1;
+}
+.bombinha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('background_nuclear.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: auto;
+    height: 100vh;
+    gap: 40px;
+}
+.texto_bombinha{
+    background: rgba(255, 255, 255, 0.25);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 50px;    
+    gap: 50px;
+    max-width: 600px;
+}
+.usina_nuclar{
+    border-radius: 10px;
+    width: 460px;
+}
+.titulo_bomba{
+    font-size: 4rem;
+    color: #9e0606;     
+    text-align: center;  
+}
+.paragrafo_bomba{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', sans-serif;
+    color:#edf0f1;
+}
+
