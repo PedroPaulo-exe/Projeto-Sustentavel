@@ -1,64 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Audiowide&display=swap');
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
-.texto_de_cima {
-    background-color: #000;
-    height: 75px;
-    text-align: center;
-    color:white
+body {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('lamp.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
-.alinhamento{
+
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px, 10%;
+    background-color: #24252A;
+    height: 20vh;
+}
+.titulo{
+    font-family: 'Audiowide', sans-serif;
+    font-size: 4.5rem;
+    color: white;      
+}
+.os_link{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    color:#edf0f1;
     width: 100%;
+    padding: 0 1%;    
 }
-.logo {
-    width: 150px;
-    position: relative;
-    top: -50px; 
-}
-.texto {
-    margin-top: -100px; 
-}
-.texto_meio{
-    font-size: 50px;
-    margin-top: -90px;
-    font-family: "Audiowide", sans-serif;
-}
-.container {
-    background: linear-gradient(#8A8A8B, #0f0f0f, #8A8A8B);
-    height: 750px;    
-    color: yellow;    
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column; 
-    font-size: 70px;
-}
-
-.ee{
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 50px;
-    background-color: #da0606;
-    color: rgb(255, 255, 255);
+.js {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 50px;
     text-decoration: none;
-    border-radius: 5px;
-    margin-top: -175px;
-    
-    
-    }
-.pp{
+    transition: all 0.3s ease;
+}
+.js:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+.capa{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    color: white;    
+}
+.capa_alinhamento{
+    margin-top: 27vh;
+    flex-direction: column;
+}
+.principal{
+    font-size: 15vh;
+    color: red;
+}
+.sub_principal{
+    align-items: center;
+    text-align: center;
+    font-size: 7vh;
+}
+.page2_tomas{
+    background-color: #24252A;
+    width: auto;
+    height: 100vh;
+    margin-top: 420px;
+}
+.manipulacao_de_tomas{
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
+    justify-content: flex-end;
+    padding: 10px, 10;
+    gap: 20px;
+}
+.tomas_img{
+    width: 500px;
     
 }
